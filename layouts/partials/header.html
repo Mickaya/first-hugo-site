@@ -27,9 +27,11 @@
             </section>
             <section class="navbar-section">
               {{ range .Site.Menus.main }}
-                <!-- <a class="{{ if eq .URL "/" }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a> -->
-                <a href="{{ .URL }}" class="btn btn-link {{ if eq .URL "/" }}active{{ end }}">{{ .Name }}</a>
+                <a href="{{ .URL }}" class="btn btn-link {{ if eq .URL "/" }}active{{ end }} hide-sm">{{ .Name }}</a>
               {{ end }}
+
+              <!-- Button for responsive menu -->
+              <a href="#" class="btn btn-link show-sm">MENU</a>
             </section>
           </header>
 
