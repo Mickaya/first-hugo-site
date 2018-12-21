@@ -1,7 +1,18 @@
 {{ partial "header.html" . }}
 
-<div class="container grid-lg">
-    {{ .Content }}
-</div>
+<!-- <div class="container grid-lg"> -->
+
+    <div class="hero hero-lg bg-primary">
+        
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+
+        <div class="hero-body">
+            <h1>Hey</h1>
+            <p>{{ .Content }}</p>
+        </div>
+    </div>
+    
+<!-- </div> -->
 
 {{ partial "footer.html" . }}

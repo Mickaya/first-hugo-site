@@ -1,0 +1,3 @@
+colors :
+
+	- bg-hero : #131518 (dark)
