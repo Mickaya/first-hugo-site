@@ -39,6 +39,14 @@
 /* ------------------- HERO BANNER -------------------------- */
 
 .bg-particles {
+    position: relative;
     background-color: #131518 !important;
     color: #fff;
+}
+#particles-js canvas{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
 }
