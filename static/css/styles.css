@@ -11,13 +11,22 @@
     font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 */
-/* ------------------- LOGO -------------------------- */
+/* ------------------- LOGO & NAVBAR -------------------------- */
 .content-navbar {
     background-color: #fff;
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 .navbar {
     height: 72px;
+}
+.btn.btn-link {
+    color: #1f2532;
+    font-family: "Muli";
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.btn.btn-link.active{
+    color: #0594cb;
 }
 .logo-text a {
     font-family: 'Patchy Robots';
