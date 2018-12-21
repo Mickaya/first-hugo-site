@@ -14,23 +14,23 @@
 /* ------------------- LOGO & NAVBAR -------------------------- */
 .content-navbar {
     background-color: #fff;
-    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    /* box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28); */
 }
 .navbar {
     height: 72px;
 }
 .btn.btn-link {
-    color: #1f2532;
-    font-family: "Muli";
-    font-size: 1.1em;
+    color: #808080;
+    font-family: "Open Sans";
+    font-size: 17px;
     text-decoration: none;
 }
 .btn.btn-link.active{
-    color: #0594cb;
+    color: #000;
 }
 .logo-text a {
     font-family: 'Patchy Robots';
-    font-size: 1.7rem;
+    font-size: 1.35rem;
     text-decoration: none;
-    color: #000;
+    color: #111;
 }
