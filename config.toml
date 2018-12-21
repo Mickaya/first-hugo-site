@@ -1,0 +1,26 @@
+baseURL = "/"
+languageCode = "fr-fr"
+title = "Mickael Sermont"
+theme = "basics"
+
+[params]
+    author = "Mickael Sermont"
+    github = "mickaya"
+
+# main menu
+[[menu.main]]
+    name = "Accueil"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 2
+[[menu.main]]
+    name = "Projets"
+    url = "/projets/"
+    weight = 3
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4

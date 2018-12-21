@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Patchy Robots';
+    src: url('../fonts/PatchyRobots.woff2') format('woff2'),
+        url('../fonts/PatchyRobots.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+* {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+}
+*/
+/* ------------------- LOGO -------------------------- */
+.content-navbar {
+    background-color: #fff;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+.navbar {
+    height: 72px;
+}
+.logo-text a {
+    font-family: 'Patchy Robots';
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #000;
+}

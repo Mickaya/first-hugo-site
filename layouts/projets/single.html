@@ -1,0 +1,13 @@
+{{ define "content" }}
+<div class="container grid-lg">
+  <div class="blog-post">
+    <h1>{{ .Title }}</h1>
+    <div class="blog-post-subheader">
+      <time>{{ .Date.Format "02 Jan 2006" }}</time>
+  </div>
+  <div class="blog-post-content">
+    </div>
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}
