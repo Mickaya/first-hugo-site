@@ -11,6 +11,13 @@
     font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 */
+
+/* ------------------- GENERAL CSS -------------------------- */
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
 /* ------------------- LOGO & NAVBAR -------------------------- */
 .content-navbar {
     background-color: #fff;
@@ -49,4 +56,17 @@
     height: auto;
     left: 0px;
     top: 0px;
+}
+.hero-md {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+.hero-body h2,
+.hero-body h4 {
+    font-family: "Muli";
+    /* font-weight: 600; */
+}
+.face-home {
+    width: 140px;
+    margin-bottom: 25px;
 }
