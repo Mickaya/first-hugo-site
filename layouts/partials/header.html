@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         
-        <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans:600|Montserrat|Nunito" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Lato|Nunito" rel="stylesheet">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
         
@@ -25,8 +25,9 @@
               <span class="logo-text {{ if eq .URL "/" }}animated fadeIn delay-1s{{ end }}"><a href="/">MS</a></span>
             </section>
             <section class="navbar-section">
+              {{ $currentNode := . }}
               {{ range .Site.Menus.main }}
-              <a href="{{ .URL }}" class="btn btn-link {{ if eq .URL "/" }}active{{ end }} hide-sm">{{ .Name }}</a>
+              <a href="{{ .URL }}" class="btn btn-link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active {{end}} hide-sm">{{ .Name }}</a>
               {{ end }}
 
               <!-- Button for responsive menu -->
