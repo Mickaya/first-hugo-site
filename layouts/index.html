@@ -4,7 +4,12 @@
 
 <br>
 <div class="container grid-lg">
-    {{ .Content }}
+    <div class="columns">
+        <div class="column col-10 col-mx-auto" id="bio">
+            <h2 class="flex-centered">A propos de moi</h2>
+            <p>{{ .Content }}</p>
+        </div>
+    </div>
 </div>
 
 {{ partial "footer.html" . }}

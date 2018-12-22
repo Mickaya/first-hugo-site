@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         
-        <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans:600|Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli|Open+Sans:600|Montserrat|Nunito" rel="stylesheet">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
         
@@ -23,7 +23,7 @@
 
           <header class="navbar">
             <section class="navbar-section">
-              <span class="logo-text {{ if eq .URL "/" }}animated fadeIn{{ end }}"><a href="/">MS</a></span>
+              <span class="logo-text {{ if eq .URL "/" }}animated fadeIn delay-1s{{ end }}"><a href="/">MS</a></span>
             </section>
             <section class="navbar-section">
               {{ range .Site.Menus.main }}

@@ -37,6 +37,7 @@
     color: #808080;
     font-family: "Open Sans";
     font-size: 16px;
+    letter-spacing: .5px;
     text-decoration: none;
     padding-right: 13px;
 }
@@ -71,10 +72,29 @@
 }
 .hero-body h2,
 .hero-body h4 {
-    font-family: "Muli";
-    /* font-weight: 600; */
+    font-family: "Nunito";
 }
 .face-home {
     width: 140px;
     margin-bottom: 25px;
+}
+
+#bio {
+    margin: 1.5rem auto;
+}
+#bio p {
+    text-align: left;
+    font-size: 1rem;
+    font-family: "Nunito";
+    line-height: 1.7;
+}
+
+/* ------------------- FOOTER -------------------------- */
+
+
+.section-footer {
+    position: relative;
+    background-color: #131518 !important;
+    color: #fff;
+    padding: 1.8rem .75rem 1rem;
 }
