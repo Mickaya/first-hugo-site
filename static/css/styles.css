@@ -13,24 +13,32 @@
 */
 
 /* ------------------- GENERAL CSS -------------------------- */
-
+#main-content {
+    margin-top: 62px;
+}
 .rounded-circle {
     border-radius: 50%!important;
 }
 
 /* ------------------- LOGO & NAVBAR -------------------------- */
+.navbar {
+    height: 62px;
+}
 .content-navbar {
     background-color: #fff;
-    /* box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28); */
-}
-.navbar {
-    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 .btn.btn-link {
     color: #808080;
     font-family: "Open Sans";
-    font-size: 17px;
+    font-size: 16px;
     text-decoration: none;
+    padding-right: 13px;
 }
 .btn.btn-link.active{
     color: #000;

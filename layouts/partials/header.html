@@ -23,11 +23,11 @@
 
           <header class="navbar">
             <section class="navbar-section">
-              <span class="logo-text {{ if eq .URL "/" }}animated flash{{ end }}"><a href="/">MS</a></span>
+              <span class="logo-text {{ if eq .URL "/" }}animated fadeIn{{ end }}"><a href="/">MS</a></span>
             </section>
             <section class="navbar-section">
               {{ range .Site.Menus.main }}
-                <a href="{{ .URL }}" class="btn btn-link {{ if eq .URL "/" }}active{{ end }} hide-sm">{{ .Name }}</a>
+              <a href="{{ .URL }}" class="btn btn-link {{ if eq .URL "/" }}active{{ end }} hide-sm">{{ .Name }}</a>
               {{ end }}
 
               <!-- Button for responsive menu -->
@@ -38,7 +38,5 @@
         </div>
       </div>
 
-      <!-- <br>
-      <div class="container grid-lg">
-        <h2>{{ .Title }}</h2>
-      </div> -->
+      <div id="main-content">
+        
