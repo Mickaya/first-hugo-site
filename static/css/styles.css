@@ -48,7 +48,7 @@
     font-family: 'Patchy Robots';
     font-size: 1.35rem;
     text-decoration: none;
-    color: #111;
+    color: #263C53;
 }
 
 
@@ -82,11 +82,14 @@
 #bio {
     margin: 1.5rem auto;
 }
+#bio h2 {
+    color: #263C53;
+}
 #bio p {
     text-align: left;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-family: "Nunito";
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 /* ------------------- FOOTER -------------------------- */
@@ -94,7 +97,7 @@
 
 .section-footer {
     position: relative;
-    background-color: #131518 !important;
+    background-color: #21364b !important;
     color: #fff;
-    padding: 1.8rem .75rem 1rem;
+    padding: 1rem .75rem;
 }
