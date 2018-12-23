@@ -35,9 +35,9 @@
 }
 .btn.btn-link {
     color: #808080;
-    font-family: "Open Sans";
-    font-size: 16px;
-    letter-spacing: .5px;
+    font-family: "Lato";
+    font-size: 17px;
+    letter-spacing: .7px;
     text-decoration: none;
     padding-right: 13px;
 }
@@ -52,7 +52,7 @@
 }
 
 
-/* ------------------- HERO BANNER -------------------------- */
+/* ------------------- HERO HOME -------------------------- */
 
 .bg-particles {
     position: relative;
@@ -79,17 +79,21 @@
     margin-bottom: 25px;
 }
 
+/* ------------------- STYLES HOMEPAGE -------------------------- */
+
 #bio {
-    margin: 1.5rem auto;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 #bio h2 {
     color: #263C53;
+    margin-bottom: 1.5rem;
 }
 #bio p {
-    text-align: left;
+    text-align: center;
     font-size: 0.95rem;
-    font-family: "Nunito";
-    line-height: 1.6;
+    font-family: "Open Sans";
+    line-height: 1.7;
 }
 
 /* ------------------- FOOTER -------------------------- */
