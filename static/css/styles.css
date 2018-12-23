@@ -30,12 +30,46 @@ p {
     /* font-family: "Open Sans"; */
 }
 p a {
-    color: #4484CE;
+    color: #0098C1;
 }
+a:visited {
+    color: #0071c1;
+}
+
+/* ------------------- BUTTON CSS -------------------------- */
+
+a:focus,
+.btn:focus {
+    box-shadow: 0 0 0 0.1rem rgba(0,0,0,0);
+}
+.btn.btn-link:focus {
+    border-color: transparent;
+}
+
+/* Primary */
+
 .btn.btn-primary {
     color: #fff;
-    background-color: #0098C1;
+    background: #0098C1;
     border-color: #0098C1;
+}
+.btn.btn-primary.active,
+.btn.btn-primary:active {
+    background: #0071c1;
+    border-color: #0071c1;
+}
+.btn.btn-primary:hover {
+    background: #0098C1;
+    border-color: #0098C1;
+}
+
+/* Link */
+
+.btn.btn-link.active,
+.btn.btn-link:active,
+.btn.btn-link:focus,
+.btn.btn-link:hover {
+    color: #0071c1;
 }
 
 /* ------------------- LOGO & NAVBAR -------------------------- */
