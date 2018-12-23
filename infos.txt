@@ -1,3 +1,4 @@
 colors :
 
-	- bg-hero : #21364b (marine sombre)
+	- bg-hero : #0F1626 (marine sombre)
+	- secondary color : #0098C1
