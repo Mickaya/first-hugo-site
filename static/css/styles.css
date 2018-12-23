@@ -24,6 +24,19 @@
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
 }
+p {
+    font-size: 1.2em;
+    font-family: "Nunito";
+    /* font-family: "Open Sans"; */
+}
+p a {
+    color: #4484CE;
+}
+.btn.btn-primary {
+    color: #fff;
+    background-color: #0098C1;
+    border-color: #0098C1;
+}
 
 /* ------------------- LOGO & NAVBAR -------------------------- */
 .navbar {
@@ -40,20 +53,22 @@
 }
 .btn.btn-link {
     color: #808080;
-    font-family: "Lato";
-    font-size: 17px;
+    font-family: "Nunito Sans";
+    font-size: 16.8px;
     letter-spacing: .7px;
     text-decoration: none;
     padding-right: 13px;
 }
 .btn.btn-link.active{
+    /* color: #18509D; */
     color: #000;
 }
 .logo-text a {
     font-family: 'Patchy Robots';
     font-size: 1.35rem;
     text-decoration: none;
-    color: #263C53;
+    color: #0F1626;
+    /* color: #263C53;  old version */
 }
 
 
@@ -61,7 +76,7 @@
 
 .bg-particles {
     position: relative;
-    background-color: #21364b !important;
+    background-color: #0F1626 !important;
     color: #fff;
 }
 #particles-js canvas{
@@ -86,18 +101,22 @@
 
 /* ------------------- STYLES HOMEPAGE -------------------------- */
 
-#bio {
+.bio {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
 }
-#bio h2 {
-    color: #263C53;
+.bio h2 {
+    color: #0F1626;
     margin-bottom: 1.5rem;
 }
-#bio p {
+.bio h4 {
+    color: #0098C1;
+    font-family: "Nunito Sans";
     text-align: center;
-    font-size: 0.88rem;
-    font-family: "Open Sans";
+    margin-bottom: 1rem;
+}
+.bio p {
+    text-align: center;
     line-height: 1.7;
 }
 
@@ -106,7 +125,7 @@
 
 .section-footer {
     position: relative;
-    background-color: #21364b !important;
+    background-color: #0F1626 !important;
     color: #fff;
     padding: 1rem .75rem;
 }
