@@ -122,14 +122,14 @@ a:focus,
     top: 25%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .overlay a.link {
-    padding: 8px;
+    padding: 3px;
     text-decoration: none;
     font-family: "Nunito";
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     letter-spacing: .8px;
     color: #efefef;
     display: block;
@@ -147,13 +147,24 @@ a:focus,
     color: #efefef;
 }
 
-/* @media screen and (max-height: 600px) {
-    .overlay .closebtn {
-        color: #fff;
-        top: 10%;
-        right: 10%;
-    }
-} */
+.overlayBottom {
+    bottom: 40px;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    color: #a7a7a7;
+}
+.overlayBottom #logo {
+    font-family: 'Patchy Robots';
+    font-size: 1.35rem;
+    margin-bottom: 10px;
+}
+.overlayBottom #withLove {
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 1rem;
+    text-align: center;
+}
 
 /* ------------------- HERO HOME -------------------------- */
 

@@ -42,7 +42,6 @@
 
       <!-- Overlay Navigation Menu -->
       <div class="overlay" id="navOverlay">
-        <!-- Button to close the overlay navigation -->
         <a class="closebtn toggleNavbar animated zoomIn"><i class="fas fa-times"></i></a>
       
         <!-- Overlay content -->
@@ -51,6 +50,11 @@
           {{ range .Site.Menus.main }}
           <a class="link animated zoomIn" href="{{ .URL }}">{{ .Name }}</a>
           {{ end }}
+        </div>
+
+        <div class="overlayBottom flex-centered">
+          <p class="animated zoomIn" id="logo">MS</p>
+          <p class="animated zoomIn" id="withLove">Fait avec <i class="fas fa-heart"></i> par Mickaël.</p>
         </div>
       </div>
 
