@@ -1,5 +1,6 @@
 $( ".toggleNavbar" ).click(function() {
-    $( "#navOverlay" ).fadeToggle( "slow", "linear" );
+    // $( "#navOverlay" ).toggle();
+    $( "#navOverlay" ).fadeToggle();
 });
 
 

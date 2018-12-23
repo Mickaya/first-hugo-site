@@ -91,16 +91,16 @@ a:focus,
     color: #808080;
     font-family: "Nunito Sans";
     font-size: 16.8px;
-    letter-spacing: .7px;
+    letter-spacing: .6px;
     text-decoration: none;
     padding-right: 13px;
 }
 .btn.btn-link.active{
     color: #000;
 }
-
-#toggleNavbar {
-    font-size: 1.2rem;
+.toggleNavbar,
+.btn.btn-link.toggleNavbar {
+    font-size: 1.05rem;
     color: #0F1626;
 }
 
@@ -108,58 +108,52 @@ a:focus,
 
 .overlay {    
     height: 100%;
-    width: 0;
+    width: 100%;
     position: fixed;
     z-index: 999;
     left: 0;
     top: 0;
     background-color: #0F1626;
-    /* background-color: rgba(0,0,0, 0.9);  with opacity */
     overflow-x: hidden;
-    transition: 0.5s; 
-  }
-  
-  /* Position the content inside the overlay */
-  .overlay-content {
+}
+
+.overlay-content {
     position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-  }
-  
-  /* The navigation links inside the overlay */
-  .overlay a {
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a.link {
     padding: 8px;
     text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .overlay a:hover, .overlay a:focus {
+    font-family: "Nunito";
+    font-size: 1.2rem;
+    letter-spacing: .8px;
+    color: #efefef;
+    display: block;
+}
+
+.overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
-  }
-  
-  /* Position the close button (top right corner) */
-  .overlay .closebtn {
+}
+
+.overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-  
-  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-  @media screen and (max-height: 600px) {
-    .overlay a {font-size: 20px}
+    font-size: 1.3rem;
+    top: 30px;
+    right: 8%;
+    color: #efefef;
+}
+
+/* @media screen and (max-height: 600px) {
     .overlay .closebtn {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
+        color: #fff;
+        top: 10%;
+        right: 10%;
     }
-  }
+} */
 
 /* ------------------- HERO HOME -------------------------- */
 
