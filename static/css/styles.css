@@ -19,6 +19,11 @@
 .rounded-circle {
     border-radius: 50%!important;
 }
+.pointilles {
+    height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
 
 /* ------------------- LOGO & NAVBAR -------------------------- */
 .navbar {
@@ -91,7 +96,7 @@
 }
 #bio p {
     text-align: center;
-    font-size: 0.95rem;
+    font-size: 0.88rem;
     font-family: "Open Sans";
     line-height: 1.7;
 }
