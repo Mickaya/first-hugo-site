@@ -11,9 +11,8 @@
 
         <!-- CDN -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-        <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/regular.css" integrity="sha384-aubIA90W7NxJ+Ly4QHAqo1JBSwQ0jejV75iHhj59KRwVjLVHjuhS3LkDAoa/ltO4" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        
         <!-- CSS -->
         <link rel="stylesheet" href="{{ .Site.BaseURL }}css/normalize.css">
         <link rel="stylesheet" href="{{ .Site.BaseURL }}css/spectre.min.css">
@@ -21,9 +20,9 @@
     </head>
     <body>
 
+      <!-- Navbar -->
       <div class="content-navbar">
         <div class="container grid-lg">
-
           <header class="navbar">
             <section class="navbar-section">
               <span class="logo-text"><a href="/">MS</a></span> <!--{{ if eq .URL "/" }}animated fadeIn{{ end }}-->
@@ -31,16 +30,30 @@
             <section class="navbar-section">
               {{ $currentNode := . }}
               {{ range .Site.Menus.main }}
-              <a href="{{ .URL }}" class="btn btn-link {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active {{end}} hide-sm">{{ .Name }}</a>
+              <a href="{{ .URL }}" class="btn btn-link{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active {{end}} hide-sm">{{ .Name }}</a>
               {{ end }}
 
               <!-- Button for responsive menu -->
-              <a href="#" class="btn btn-link show-sm">MENU</a>
+              <a class="btn btn-link show-sm toggleNavbar"><i class="fas fa-bars"></i></a>
             </section>
           </header>
-
         </div>
       </div>
+
+      <!-- Overlay Navigation Menu -->
+      <div id="navOverlay" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a class="closebtn toggleNavbar"><i class="fas fa-times"></i></a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <!-- {{ $currentNode := . }} -->
+          {{ range .Site.Menus.main }}
+          <a href="{{ .URL }}">{{ .Name }}</a>
+          {{ end }}
+        </div>
+      </div>
+
 
       <div id="main-content">
         
