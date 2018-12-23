@@ -1,16 +1,3 @@
 $( ".toggleNavbar" ).click(function() {
-    // $( "#navOverlay" ).toggle();
-    $( "#navOverlay" ).fadeToggle();
+    $( "#navOverlay" ).fadeToggle("fast");
 });
-
-
-
-// $(document).ready(function() {
-// $('.open-menu').on('click', function() {
-//     $('.overlay').addClass('open');
-// });
-
-// $('.close-menu').on('click', function() {
-//     $('.overlay').removeClass('open');
-// });
-// });
