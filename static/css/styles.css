@@ -18,6 +18,10 @@
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
 }
+h2 {
+    color: #0F1626;
+    margin-bottom: 1.5rem;
+}
 p {
     font-size: 1.25em;
     font-family: "Nunito";
@@ -185,10 +189,14 @@ a:focus,
     padding-top: 5.5rem;
     padding-bottom: 5.5rem;
 }
+.hero-body h2 {
+    margin-bottom: 16px;
+}
 .hero-body h2,
 .hero-body h4 {
     font-family: "Nunito";
     text-align: center;
+    color: #fff;
 }
 .face-home {
     width: 140px;
@@ -201,35 +209,53 @@ a:focus,
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
 }
-.bio h2 {
-    color: #0F1626;
-    margin-bottom: 1.5rem;
-}
-.bio h4 {
+.bio h4,
+.wdo-content h4 {
     color: #0098C1;
     font-family: "Nunito Sans";
     text-align: center;
     margin-bottom: 1rem;
 }
-.bio p {
+.bio p,
+.wdo-content p {
     text-align: center;
     line-height: 1.7;
 }
+.wdo-content {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.wdo-content h4 {
+    margin-top: 1rem;
+}
+.wdo-content p {
+    max-width: 88%;
+    margin: auto;
+}
+.circle-icon {
+    background: #F1F3F4;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
+/* @media screen and (max-width: 600px) {
+    
+} */
 
 /* ------------------- STYLES PROJETS PAGE -------------------------- */
 
-.hr-projet {
+hr {
     margin-bottom: 1.5rem;
     border: 0;
-    border-top: 1px solid #eee;
+    border-top: 1px solid #eee;  /* # */
 }
 .img-projet {
     box-shadow: 1px 2px 5px #232323;
     border: 1px solid #0F1626;
     max-width: 100%;
-}
-.info-projet {
-
 }
 .info-projet h3 a,
 .info-projet h3 a:hover {
@@ -241,7 +267,6 @@ a:focus,
     font-family: "Nunito";
     font-size: 1rem;
 }
-
 
 @media screen and (max-width: 600px) {
     .content-projet {
