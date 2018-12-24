@@ -214,6 +214,24 @@ a:focus,
     line-height: 1.7;
 }
 
+/* ------------------- STYLES PROJETS PAGE -------------------------- */
+
+.content-projet {
+    margin-bottom: 2rem;
+}
+.img-projet {
+    box-shadow: 1px 2px 5px #232323;
+    border: 1px solid #0F1626;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .content-projet {
+        max-width: 95%;
+        margin: auto;
+    }
+}
+
 /* ------------------- FOOTER -------------------------- */
 
 

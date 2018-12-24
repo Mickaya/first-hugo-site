@@ -1,3 +1,3 @@
 $( ".toggleNavbar" ).click(function() {
-    $( "#navOverlay" ).fadeToggle("fast");
+    $( "#navOverlay" ).fadeToggle(350);
 });
