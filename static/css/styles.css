@@ -257,15 +257,15 @@ hr {
     border: 1px solid #0F1626;
     max-width: 100%;
 }
-.info-projet h3 a,
-.info-projet h3 a:hover {
+.info-projet h3 a {
+    font-size: 1.3rem;
     font-weight: 600;
     font-family: "Open Sans";
     color: #0F1626;
 }
-.info-projet p {
-    font-family: "Nunito";
-    font-size: 1rem;
+.info-projet h3 a:hover {
+    color: #0071c1;
+    transition: 0.2s;
 }
 
 @media screen and (max-width: 600px) {
@@ -285,7 +285,7 @@ hr {
 }
 @media screen and (min-width: 800px) {
     .info-projet {
-        max-width: 95%;
+        max-width: 90%;
         margin: auto;
     }
 }
