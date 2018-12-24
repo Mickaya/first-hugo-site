@@ -2,7 +2,7 @@
 
 {{ partial "hero-banner.html" . }}
 
-<div class="container grid-lg" style="margin-top: 2rem;">
+<div class="container margeTop grid-lg">
 
   {{ range where .Pages.ByDate.Reverse "Section" "projets" }}
   <div class="columns content-projet">
@@ -12,11 +12,14 @@
       </a>
     </div>
     <div class="column col-7 col-md-7 col-sm-12 col-xs-12">
-      <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
-      <p>{{ .Params.description }}</p>
-      <span>{{ .Params.technos_using }}</span>
+      <div class="info-projet">
+        <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
+        <p>{{ .Params.description }}</p>
+        <p><em>{{ .Params.technos_using }}</em></p>
+      </div>
     </div>
   </div>
+  <hr class="hr-projet">
   {{ end }}
 
 </div>

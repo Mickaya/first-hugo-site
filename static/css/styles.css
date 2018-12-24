@@ -28,7 +28,9 @@ p a {
 a:visited {
     color: #0071c1;
 }
-
+.margeTop {
+    margin-top: 2rem;
+}
 /* ------------------- BUTTON CSS -------------------------- */
 
 a:focus,
@@ -216,17 +218,48 @@ a:focus,
 
 /* ------------------- STYLES PROJETS PAGE -------------------------- */
 
-.content-projet {
-    margin-bottom: 2rem;
+.hr-projet {
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 1px solid #eee;
 }
 .img-projet {
     box-shadow: 1px 2px 5px #232323;
     border: 1px solid #0F1626;
     max-width: 100%;
 }
+.info-projet {
+
+}
+.info-projet h3 a,
+.info-projet h3 a:hover {
+    font-weight: 600;
+    font-family: "Open Sans";
+    color: #0F1626;
+}
+.info-projet p {
+    font-family: "Nunito";
+    font-size: 1rem;
+}
+
 
 @media screen and (max-width: 600px) {
     .content-projet {
+        max-width: 95%;
+        margin: auto;
+    }
+    .info-projet {
+        margin-top: 1rem;
+    }
+    .info-projet p {
+        font-size: .95rem;
+    }
+    .info-projet h3 {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width: 800px) {
+    .info-projet {
         max-width: 95%;
         margin: auto;
     }
