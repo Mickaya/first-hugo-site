@@ -42,19 +42,19 @@
 
       <!-- Overlay Navigation Menu -->
       <div class="overlay" id="navOverlay"style="display: none;">
-        <a class="closebtn toggleNavbar animated zoomIn"><i class="fas fa-times"></i></a>
+        <a class="closebtn toggleNavbar"><i class="fas fa-times"></i></a>
       
         <!-- Overlay content -->
         <div class="overlay-content">
           <!-- {{ $currentNode := . }} -->
           {{ range .Site.Menus.main }}
-          <a class="link animated zoomIn" href="{{ .URL }}">{{ .Name }}</a>
+          <a class="link" href="{{ .URL }}">{{ .Name }}</a>
           {{ end }}
         </div>
 
         <div class="overlayBottom flex-centered">
           <p class="animated zoomIn" id="logo">MS</p>
-          <p class="animated zoomIn" id="withLove">Fait avec <i class="fas fa-heart"></i> par Mickaël.</p>
+          <p id="withLove">Fait avec <i class="fas fa-heart"></i> par Mickaël.</p>
         </div>
       </div>
 

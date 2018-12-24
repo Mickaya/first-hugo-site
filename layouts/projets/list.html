@@ -3,21 +3,21 @@
 {{ partial "hero-banner.html" . }}
 
 <div class="container grid-lg">
-  <section>
-    <ul class="posts_listing">
-      {{ range where .Pages.ByDate.Reverse "Section" "projets" }}
-      <li>
-        <div class="row" id="posts">
-          <div class="d-none d-sm-block col-sm-3 date-time-title">
-            <time>{{ .Date.Format "02 Jan 2006" }}</time>
-          </div>
-          <div class="col-sm date-time-title post">
-            <a href="{{ .URL }}">{{ .Title }}</a>
-          </div>
-        </div>
-      </li>
-      {{ end }}
-    </ul>
-  </section>
+
+  {{ range where .Pages.ByDate.Reverse "Section" "projets" }}
+  <div class="columns">
+    <div class="column col-6 col-md-6 col-sm-6 col-xs-12">
+      <a href="{{ .URL }}">
+        <img class="img-responsive" src="../../img/projets/aba.png" alt="">
+      </a>
+    </div>
+    <div class="column col-6 col-md-6 col-sm-6 col-xs-12">
+      <h2>{{ .Title }}</h2>
+      
+    </div>
+  </div>
+  {{ end }}
+
 </div>
+
 {{ partial "footer.html" . }}
