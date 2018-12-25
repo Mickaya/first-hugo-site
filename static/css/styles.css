@@ -316,8 +316,18 @@ hr {
     color: #0F1626;
     margin-bottom: 1rem;
 }
-
-
+.line-detail:hover i {
+    color: #0071c1;
+    /* color: #0F1626; */
+}
+/* hr.mi-hr {
+    margin: 0 0 1rem 0;
+    width: 35%;
+    content: '';
+    height: 2px;
+    background-color: rgb(21, 25, 34);
+    border: 0;
+} */
 /* ------------------- FOOTER -------------------------- */
 
 
