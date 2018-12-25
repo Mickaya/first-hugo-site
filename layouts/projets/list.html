@@ -19,7 +19,13 @@
       </div>
     </div>
   </div>
+  
+  {{ $number := 1 }}
+  {{ $weight := .Params.weight }}
+  {{ if gt $weight $number }}
   <hr class="hr-projet">
+  {{end}}
+  
   {{ end }}
 
 </div>
