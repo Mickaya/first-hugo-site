@@ -7,6 +7,10 @@ draft: true
 <div class="columns margeTop margeBottom">
     <div class="column col-6 col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <h3 class="tl-ct">Détails</h3>
+        <p><i class="fas fa-user"></i> &nbsp Mickaël Sermont</p>
+        <p><i class="fas fa-at"></i>&nbsp adresse.email@hotmail.fr</p>
+        <p><i class="fas fa-phone"></i>&nbsp 00.00.00.00.00</p>
+        <p><i class="fas fa-link"></i>&nbsp www.mywebsite.com</p>
     </div>
     <div class="column col-6 col-xs-12 col-sm-12 col-md-6 col-lg-65">
         <h3 class="tl-ct">Ecrivez-moi</h3>
