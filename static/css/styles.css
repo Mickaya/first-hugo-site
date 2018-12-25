@@ -13,11 +13,6 @@
 .rounded-circle {
     border-radius: 50%!important;
 }
-.pointilles {
-    height: 6px;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-    border: 0;
-}
 h2 {
     color: #0F1626;
     margin-bottom: 1.5rem;
@@ -34,6 +29,9 @@ a:visited {
 }
 .margeTop {
     margin-top: 2rem;
+}
+.margeBottom {
+    margin-bottom: 2rem;
 }
 /* ------------------- BUTTON CSS -------------------------- */
 
@@ -172,7 +170,10 @@ a:focus,
 }
 
 /* ------------------- HERO HOME -------------------------- */
-
+.hero.hero-sm {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
 .bg-particles {
     position: relative;
     background-color: #0F1626 !important;
@@ -251,6 +252,8 @@ a:focus,
 .btn-contact {
     font-size: 1rem;
     max-width: 60%;
+    border-radius: 10px;
+    overflow: hidden;
     width: -webkit-fill-available;
     height: 3rem;
     padding: .9rem;
@@ -306,6 +309,14 @@ hr {
         margin: auto;
     }
 }
+
+/* ------------------- STYLES CONTACT PAGE ------------- */
+
+.tl-ct {
+    color: #0F1626;
+    margin-bottom: 1rem;
+}
+
 
 /* ------------------- FOOTER -------------------------- */
 
