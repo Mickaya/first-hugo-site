@@ -203,6 +203,13 @@ a:focus,
     margin-bottom: 25px;
 }
 
+@media screen and (max-width: 600px) {
+    .hero.hero-sm {
+        padding-bottom: 0.5rem;
+        padding-top: 1.5rem;
+    }
+}
+
 /* ------------------- STYLES HOMEPAGE -------------------------- */
 
 .bio {
@@ -241,9 +248,19 @@ a:focus,
     line-height: 100px;
     vertical-align: middle;
 }
-/* @media screen and (max-width: 600px) {
-    
-} */
+.btn-contact {
+    font-size: 1rem;
+    max-width: 60%;
+    width: -webkit-fill-available;
+    height: 3rem;
+    padding: .9rem;
+}
+
+@media screen and (max-width: 600px) {
+    .btn-contact {
+        max-width: 90%;
+    }
+}
 
 /* ------------------- STYLES PROJETS PAGE -------------------------- */
 
