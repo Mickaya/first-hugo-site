@@ -1,10 +1,10 @@
 baseURL = "/"
 languageCode = "fr-fr"
-title = "Mickael Sermont"
+title = "Mickaël Sermont"
 theme = "basics"
 
 [params]
-    author = "Mickael Sermont"
+    author = "Mickaël Sermont"
     github = "mickaya"
 
 # main menu
@@ -12,10 +12,10 @@ theme = "basics"
     name = "Accueil"
     url = "/"
     weight = 1
-[[menu.main]]
-    name = "CV"
-    url = "/cv/"
-    weight = 2
+# [[menu.main]]
+#     name = "CV"
+#     url = "/cv/"
+#     weight = 2
 [[menu.main]]
     name = "Projets"
     url = "/projets/"

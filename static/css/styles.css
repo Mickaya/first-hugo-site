@@ -89,7 +89,10 @@ a:focus,
     text-decoration: none;
     color: #0F1626;
 }
-
+.logo-text:hover a {
+    color: #0098C1;
+    transition: .3s;
+}
 .btn.btn-link {
     color: #808080;
     font-family: "Nunito Sans";
@@ -251,7 +254,7 @@ a:focus,
 }
 .btn-contact {
     font-size: 1rem;
-    max-width: 60%;
+    max-width: 40%;
     border-radius: 10px;
     overflow: hidden;
     width: -webkit-fill-available;
@@ -259,7 +262,7 @@ a:focus,
     padding: .9rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .btn-contact {
         max-width: 90%;
     }
@@ -278,7 +281,7 @@ hr {
     max-width: 100%;
 }
 .info-projet h3 a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
     font-family: "Open Sans";
     color: #0F1626;
@@ -286,6 +289,9 @@ hr {
 .info-projet h3 a:hover {
     color: #0071c1;
     transition: 0.2s;
+}
+.pjt-desc {
+    font-size: 1.18em;
 }
 
 @media screen and (max-width: 600px) {
@@ -304,6 +310,9 @@ hr {
     }
 }
 @media screen and (min-width: 800px) {
+    .content-projet {
+        min-height: 250px;
+    }
     .info-projet {
         max-width: 90%;
         margin: auto;

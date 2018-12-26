@@ -11,7 +11,7 @@ draft: true
         <p class="line-detail"><i class="fas fa-user"></i> &nbsp Mickaël Sermont</p>
         <p class="line-detail"><i class="fas fa-at"></i>&nbsp adresse.email@hotmail.fr</p>
         <p class="line-detail"><i class="fas fa-phone"></i>&nbsp 00.00.00.00.00</p>
-        <p class="line-detail"><i class="fas fa-link"></i>&nbsp www.mywebsite.com</p>
+        <!-- <p class="line-detail"><i class="fas fa-link"></i>&nbsp www.mywebsite.com</p> -->
     </div>
     <div class="column col-6 col-xs-12 col-sm-12 col-md-6 col-lg-65">
         <h3 class="tl-ct">Écrivez-moi</h3>
