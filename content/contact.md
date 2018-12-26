@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 date: 2018-12-21T00:56:35+03:30
-draft: true
+draft: false
 ---
 
 <div class="columns margeTop margeBottom">
