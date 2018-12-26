@@ -1,4 +1,4 @@
-baseURL = "https://mickael-sermont.netlify.com/"
+baseURL = ""
 languageCode = "fr-fr"
 title = "Mickaël Sermont"
 theme = "basics"
