@@ -18,9 +18,9 @@ theme = "basics"
 #     weight = 2
 [[menu.main]]
     name = "Projets"
-    url = "projets/"
+    url = "/projets"
     weight = 3
 [[menu.main]]
     name = "Contact"
-    url = "contact/"
+    url = "/contact"
     weight = 4
