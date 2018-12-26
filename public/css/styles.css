@@ -1,0 +1,360 @@
+@font-face {
+    font-family: 'Patchy Robots';
+    src: url('../fonts/PatchyRobots.woff2') format('woff2'),
+        url('../fonts/PatchyRobots.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ------------------- GENERAL CSS -------------------------- */
+#main-content {
+    margin-top: 62px;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+}
+h2 {
+    color: #0F1626;
+    margin-bottom: 1.5rem;
+}
+p {
+    font-size: 1.25em;
+    font-family: "Nunito";
+}
+p a {
+    color: #0098C1;
+}
+a:visited {
+    color: #0071c1;
+}
+.margeTop {
+    margin-top: 2rem;
+}
+.margeBottom {
+    margin-bottom: 2rem;
+}
+/* ------------------- BUTTON CSS -------------------------- */
+
+a:focus,
+.btn:focus {
+    box-shadow: 0 0 0 0.1rem rgba(0,0,0,0);
+}
+.btn.btn-link:focus {
+    border-color: transparent;
+}
+
+/* Primary */
+
+.btn.btn-primary {
+    color: #fff;
+    background: #0098C1;
+    border-color: #0098C1;
+}
+.btn.btn-primary.active,
+.btn.btn-primary:active {
+    background: #0071c1;
+    border-color: #0071c1;
+}
+.btn.btn-primary:hover {
+    background: #0098C1;
+    border-color: #0098C1;
+}
+
+/* Link */
+
+.btn.btn-link.active,
+.btn.btn-link:active,
+.btn.btn-link:focus,
+.btn.btn-link:hover {
+    color: #0071c1;
+}
+
+/* ------------------- LOGO & NAVBAR -------------------------- */
+.navbar {
+    height: 62px;
+}
+.content-navbar {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    /* box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28); */
+}
+
+.logo-text a {
+    font-family: 'Patchy Robots';
+    font-size: 1.35rem;
+    text-decoration: none;
+    color: #0F1626;
+}
+.logo-text:hover a {
+    color: #0098C1;
+    transition: .3s;
+}
+.btn.btn-link {
+    color: #808080;
+    font-family: "Nunito Sans";
+    font-size: 16.8px;
+    letter-spacing: .6px;
+    text-decoration: none;
+    padding-right: 13px;
+}
+.btn.btn-link.active{
+    color: #000;
+}
+.toggleNavbar,
+.btn.btn-link.toggleNavbar {
+    font-size: 1.05rem;
+    color: #0F1626;
+}
+
+/* ------------------- OVERLAY NAVIGATION -------------------------- */
+
+.overlay {    
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    background-color: #0F1626;
+    overflow-x: hidden;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.overlay a.link {
+    padding: 3px;
+    text-decoration: none;
+    font-family: "Nunito";
+    font-size: 1.3rem;
+    letter-spacing: .8px;
+    color: #efefef;
+    display: block;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    font-size: 1.3rem;
+    top: 30px;
+    right: 8%;
+    color: #efefef;
+}
+
+.overlayBottom {
+    bottom: 40px;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    color: #a7a7a7;
+}
+.overlayBottom #logo {
+    font-family: 'Patchy Robots';
+    font-size: 1.35rem;
+    margin-bottom: 10px;
+}
+.overlayBottom #withLove {
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* ------------------- HERO HOME -------------------------- */
+.hero.hero-sm {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+.bg-particles {
+    position: relative;
+    background-color: #0F1626 !important;
+    color: #fff;
+}
+#particles-js canvas{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+}
+.hero-md {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+}
+.hero-body h2 {
+    margin-bottom: 16px;
+}
+.hero-body h2,
+.hero-body h4 {
+    font-family: "Nunito";
+    text-align: center;
+    color: #fff;
+}
+.face-home {
+    width: 140px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .hero.hero-sm {
+        padding-bottom: 0.5rem;
+        padding-top: 1.5rem;
+    }
+}
+
+/* ------------------- STYLES HOMEPAGE -------------------------- */
+
+.bio {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.bio h4,
+.wdo-content h4 {
+    color: #0098C1;
+    font-family: "Nunito Sans";
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.bio p,
+.wdo-content p {
+    text-align: center;
+    line-height: 1.7;
+}
+.wdo-content {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.wdo-content h4 {
+    margin-top: 1rem;
+}
+.wdo-content p {
+    max-width: 88%;
+    margin: auto;
+}
+.circle-icon {
+    background: #F1F3F4;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+}
+.btn-contact {
+    font-size: 1rem;
+    max-width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    width: -webkit-fill-available;
+    height: 3rem;
+    padding: .9rem;
+}
+
+@media screen and (max-width: 800px) {
+    .btn-contact {
+        max-width: 90%;
+    }
+}
+
+/* ------------------- STYLES PROJETS PAGE -------------------------- */
+
+hr {
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 1px solid #eee;  /* # */
+}
+.img-projet {
+    box-shadow: 1px 2px 5px #232323;
+    border: 1px solid #0F1626;
+    max-width: 100%;
+}
+.info-projet h3 a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Open Sans";
+    color: #0F1626;
+}
+.info-projet h3 a:hover {
+    color: #0071c1;
+    transition: 0.2s;
+}
+.pjt-desc {
+    font-size: 1.18em;
+}
+
+@media screen and (max-width: 600px) {
+    .content-projet {
+        max-width: 95%;
+        margin: auto;
+    }
+    .info-projet {
+        margin-top: 1rem;
+    }
+    .info-projet p {
+        font-size: .95rem;
+    }
+    .info-projet h3 {
+        font-size: 1.3rem;
+    }
+}
+@media screen and (min-width: 800px) {
+    .content-projet {
+        min-height: 250px;
+    }
+    .info-projet {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+/* ------------------- STYLES CONTACT PAGE ------------- */
+
+.tl-ct {
+    color: #0F1626;
+    margin-bottom: 1rem;
+}
+.line-detail:hover i {
+    color: #0071c1;
+    /* color: #0F1626; */
+}
+/* hr.mi-hr {
+    margin: 0 0 1rem 0;
+    width: 35%;
+    content: '';
+    height: 2px;
+    background-color: rgb(21, 25, 34);
+    border: 0;
+} */
+/* ------------------- FOOTER -------------------------- */
+
+
+.section-footer {
+    position: relative;
+    background-color: #0F1626 !important;
+    color: #fff;
+    padding: 1rem .75rem;
+}
+
+
+/* ------------------- MEDIAS QUERIES -------------------------- */
+
+
+
+@media screen and (max-width: 1000px) {
+    .navbar {
+        width: 94%;
+        margin: auto;
+    }
+}
