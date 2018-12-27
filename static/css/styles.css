@@ -13,9 +13,17 @@
 .rounded-circle {
     border-radius: 50%!important;
 }
+h1, h2, h3, h4, h5, h6 {
+    color: #1e1e1f;
+    font-family: "Spectral";
+}
 h2 {
-    color: #0F1626;
     margin-bottom: 1.5rem;
+}
+.scd-tl {
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
 }
 p {
     font-size: 1.25em;
@@ -33,6 +41,13 @@ a:visited {
 .margeBottom {
     margin-bottom: 2rem;
 }
+@media screen and (max-width: 600px) {
+    .scd-tl {
+        margin-top: 2.5rem;
+        margin-bottom: 1.7rem;
+    }
+}
+
 /* ------------------- BUTTON CSS -------------------------- */
 
 a:focus,
@@ -281,10 +296,8 @@ hr {
     max-width: 100%;
 }
 .info-projet h3 a {
-    font-size: 1.2rem;
     font-weight: 600;
-    font-family: "Open Sans";
-    color: #0F1626;
+    color: #1e1e1f;
 }
 .info-projet h3 a:hover {
     color: #0071c1;
