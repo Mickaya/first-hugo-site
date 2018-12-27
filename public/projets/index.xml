@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Site CV de Mickaël Sermont on Mickaël Sermont</title>
-    <link>https://mickael-sermont.netlify.com/</link>
-    <description>Recent content in Site CV de Mickaël Sermont on Mickaël Sermont</description>
+    <title>Projets on Mickaël Sermont</title>
+    <link>https://mickael-sermont.netlify.com/projets/</link>
+    <description>Recent content in Projets on Mickaël Sermont</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Wed, 26 Dec 2018 23:34:07 +0330</lastBuildDate>
+    <lastBuildDate>Fri, 21 Dec 2018 00:50:34 +0330</lastBuildDate>
     
-	<atom:link href="https://mickael-sermont.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mickael-sermont.netlify.com/projets/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,19 +27,6 @@
       
       <guid>https://mickael-sermont.netlify.com/projets/second-project/</guid>
       <description>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente iste quos dolores est, doloribus reprehenderit. Enim libero assumenda sed? Nisi reiciendis commodi, quod quidem perferendis earum tempora deleniti reprehenderit ab.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://mickael-sermont.netlify.com/contact/</link>
-      <pubDate>Fri, 21 Dec 2018 00:56:35 +0330</pubDate>
-      
-      <guid>https://mickael-sermont.netlify.com/contact/</guid>
-      <description>Détails --  &amp;nbsp Mickaël Sermont
-&amp;nbsp adresse.email@hotmail.fr
-&amp;nbsp 00.00.00.00.00
-&amp;nbsp www.mywebsite.com
---  Écrivez-moi --         Envoyer        </description>
     </item>
     
   </channel>
