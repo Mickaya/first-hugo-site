@@ -163,7 +163,8 @@ a:focus,
 .overlay .closebtn {
     position: absolute;
     font-size: 1.3rem;
-    top: 11.5px;
+    /* top: 11.5px; */
+    top: 30px;
     right: 9.3%;
     color: #efefef;
 }
