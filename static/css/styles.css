@@ -218,7 +218,6 @@ a:focus,
     color: #fff;
 }
 .face-home {
-    width: 140px;
     margin-bottom: 25px;
 }
 
@@ -340,7 +339,6 @@ hr {
 }
 .line-detail:hover i {
     color: #0071c1;
-    /* color: #0F1626; */
 }
 /* hr.mi-hr {
     margin: 0 0 1rem 0;
@@ -371,3 +369,7 @@ hr {
         margin: auto;
     }
 }
+
+
+
+
