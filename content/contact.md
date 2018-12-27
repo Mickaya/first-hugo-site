@@ -16,7 +16,8 @@ draft: false
     <div class="column col-6 col-xs-12 col-sm-12 col-md-6 col-lg-65">
         <h3 class="tl-ct">Écrivez-moi</h3>
         <!-- <hr class="mi-hr"> -->
-        <form class="contact-form validate-form">
+        <form class="contact-form validate-form" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+            <input type="hidden" name="bot-field" />
             <div class="wrap-input validate-input" data-validate = "Nom est requis">
                 <input class="input" type="text" name="name" placeholder="Nom">
                 <span class="shadow-input"></span>
