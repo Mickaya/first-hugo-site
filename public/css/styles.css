@@ -163,8 +163,9 @@ a:focus,
 .overlay .closebtn {
     position: absolute;
     font-size: 1.3rem;
+    /* top: 11.5px; */
     top: 30px;
-    right: 8%;
+    right: 9.3%;
     color: #efefef;
 }
 
@@ -331,8 +332,16 @@ hr {
     }
 }
 
-/* ------------------- STYLES CONTACT PAGE ------------- */
+/* ------------------- STYLES ARTICLE PAGE ------------- */
 
+.content-article {
+    margin: 2rem .5rem;
+}
+
+/* ------------------- STYLES CONTACT PAGE ------------- */
+.content-projet {
+    margin: 2rem 0;
+}
 .tl-ct {
     color: #0F1626;
     margin-bottom: 1rem;
@@ -358,7 +367,6 @@ hr {
     padding: 1rem .75rem;
 }
 
-
 /* ------------------- MEDIAS QUERIES -------------------------- */
 
 @media screen and (max-width: 1000px) {
@@ -367,7 +375,11 @@ hr {
         margin: auto;
     }
 }
-
+@media screen and (max-width: 800px) {
+    .content-projet {
+        margin: 2rem .2rem;
+    }
+}
 
 
 
@@ -577,3 +589,19 @@ textarea.input + .shadow-input {
     opacity: 1;
   }
 }
+
+
+/* --------------------- 404 STYLES ----------------------------- */
+
+.ct-404 {
+    color: #fff;
+}
+.ct-404 h1 {
+    font-family: "Patchy Robots";
+}
+.ct-404 {
+    font-family: "Nunito Sans";
+}
+
+/* --------------------- SUCCESS STYLES ------------------------- */
+

@@ -589,3 +589,19 @@ textarea.input + .shadow-input {
     opacity: 1;
   }
 }
+
+
+/* --------------------- 404 STYLES ----------------------------- */
+
+.ct-404 {
+    color: #fff;
+}
+.ct-404 h1 {
+    font-family: "Patchy Robots";
+}
+.ct-404 {
+    font-family: "Nunito Sans";
+}
+
+/* --------------------- SUCCESS STYLES ------------------------- */
+
