@@ -17,11 +17,10 @@
         
         <!-- CSS -->
         <link rel="stylesheet" href="{{ .Site.BaseURL }}css/spectre.min.css">
-        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.min.css">
         
     </head>
     <body>
-
       <!-- Navbar -->
       <div class="content-navbar">
         <div class="container grid-lg">
@@ -34,30 +33,25 @@
               {{ range .Site.Menus.main }}
               <a href="{{ .URL }}" class="btn btn-link{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active {{end}} hide-sm">{{ .Name }}</a>
               {{ end }}
-
               <!-- Button for responsive menu -->
               <a class="btn btn-link show-sm toggleNavbar"><i class="fas fa-bars"></i></a>
             </section>
           </header>
         </div>
       </div>
-
       <!-- Overlay Navigation Menu -->
       <div class="overlay" id="navOverlay"style="display: none;">
         <a class="closebtn toggleNavbar"><i class="fas fa-times"></i></a>
-      
         <!-- Overlay content -->
         <div class="overlay-content">
           {{ range .Site.Menus.main }}
           <a class="link" href="{{ .URL }}">{{ .Name }}</a>
           {{ end }}
         </div>
-
         <div class="overlayBottom flex-centered">
           <p id="logo">MS</p>
           <p id="withLove">Fait avec <i class="fas fa-heart"></i> par Mickaël.</p>
         </div>
       </div>
-
       <div id="main-content">
         
