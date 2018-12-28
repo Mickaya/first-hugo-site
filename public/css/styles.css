@@ -602,14 +602,18 @@ textarea.input + .shadow-input {
     align-items: center;
     justify-content: center;
 }
+.ct-404 {
+    position: relative;
+}
 .ct-404 h1 {
     font-family: "Patchy Robots";
     font-size: 3.6rem;
     letter-spacing: 3px;
     color: #fff;
 }
-.ct-404 h2 {
+.ct-404 h2, h3 {
     font-family: "Nunito Sans";
+    text-align: center;
     color: #fff;
 }
 a.return-link {
