@@ -593,11 +593,14 @@ textarea.input + .shadow-input {
 
 /* --------------------- 404 STYLES ----------------------------- */
 .bg-404 {
-    /* margin: 0 auto; */
-    position: relative;
     background-color: #0F1626 !important;
     width: 100%; 
     height: 100vh;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .ct-404 h1 {
     font-family: "Patchy Robots";
@@ -606,6 +609,11 @@ textarea.input + .shadow-input {
     color: #fff;
 }
 .ct-404 h3 {
+    font-family: "Nunito Sans";
+    color: #fff;
+}
+a.return-link {
+    text-decoration: underline;
     font-family: "Nunito Sans";
     color: #fff;
 }
