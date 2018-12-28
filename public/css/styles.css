@@ -610,7 +610,7 @@ textarea.input + .shadow-input {
     letter-spacing: 3px;
     color: #fff;
 }
-.ct-404 h2, h3 {
+.ct-404 h2, .ct-404 h3 {
     font-family: "Nunito Sans";
     text-align: center;
     color: #fff;
