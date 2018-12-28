@@ -591,7 +591,7 @@ textarea.input + .shadow-input {
 }
 
 
-/* --------------------- 404 STYLES ----------------------------- */
+/* --------------------- 404 STYLES & SUCCESS ----------------------------- */
 .bg-404 {
     background-color: #0F1626 !important;
     width: 100%; 
@@ -604,11 +604,11 @@ textarea.input + .shadow-input {
 }
 .ct-404 h1 {
     font-family: "Patchy Robots";
-    font-size: 3.5rem;
+    font-size: 3.6rem;
     letter-spacing: 3px;
     color: #fff;
 }
-.ct-404 h3 {
+.ct-404 h2 {
     font-family: "Nunito Sans";
     color: #fff;
 }
@@ -616,7 +616,9 @@ a.return-link {
     text-decoration: underline;
     font-family: "Nunito Sans";
     color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
 }
 
-/* --------------------- SUCCESS STYLES ------------------------- */
 
