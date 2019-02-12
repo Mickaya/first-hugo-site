@@ -1,5 +1,5 @@
 ---
-title: "Site CV de Mickaël Sermont"
+title: "Site CV"
 date: 2018-12-26T23:34:07+03:30
 draft: false
 ---
