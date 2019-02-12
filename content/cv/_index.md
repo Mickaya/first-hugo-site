@@ -1,5 +1,5 @@
 ---
-title: "CV"
+title: "CV - Mickaël Sermont"
 date: 2018-12-21T01:07:45+03:30
 draft: true
 ---

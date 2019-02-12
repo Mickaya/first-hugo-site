@@ -1,7 +1,7 @@
 ---
 draft: false
 weight: 2
-title: "Skygen.me"
+title: "Projet skygen.me - Mickaël Sermont"
 date: 2018-12-21T00:52:25+03:30
 image_url: "../../img/projets/full-skn.png"
 technos_using: "En cours de production (PHP, MySQL, Slick.js)"
