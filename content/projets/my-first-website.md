@@ -1,7 +1,7 @@
 ---
 draft: false
 weight: 1
-title: "Mon site personnel - Mickaël Sermont"
+title: "Mon site personnel"
 date: 2018-12-21T00:52:11+03:30
 image_url: "../../img/projets/acc-perso.png"
 technos_using: "Hugo, Github, Netlify CMS, jQuery"
