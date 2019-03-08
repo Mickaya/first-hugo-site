@@ -96,7 +96,7 @@ a:focus,
     left: 0;
     right: 0;
     z-index: 999;
-    /* box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28); */
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
 }
 
 .logo-text a {

@@ -31,7 +31,7 @@ a:focus,
 .btn.btn-link:focus,
 .btn.btn-link:hover{color:#0071c1;}
 .navbar{height:62px;}
-.content-navbar{background-color:#fff;position:fixed;top:0;left:0;right:0;z-index:999;}
+.content-navbar{background-color:#fff;position:fixed;top:0;left:0;right:0;z-index:999;box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);}
 .logo-text a{font-family:'Patchy Robots';font-size:1.35rem;text-decoration:none;color:#0F1626;}
 .logo-text:hover a{color:#0098C1;transition:.3s;}
 .btn.btn-link{color:#808080;font-family:"Nunito Sans";font-size:16.8px;letter-spacing:.6px;text-decoration:none;padding-right:13px;}
